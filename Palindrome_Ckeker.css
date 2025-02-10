@@ -1,0 +1,76 @@
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d5a6bd;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #4d2f02;
+    margin: 50px;
+}
+
+.palindrome-div {
+    background-color: #9fe7c6;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.text-input {
+    font-size: 20px;
+    border-radius: 6px;
+    color: #4d2f02;
+}
+
+::placeholder {
+    font-family: 'Courier New', Courier, monospace;
+    color: #d5a6bd;
+}
+
+.button {
+    background-color: #f3dfa8;
+    color: #4d2f02;
+    padding: 5px 15px;
+    font-size: 15px;
+    margin: 15px;
+    border-radius: 6px;
+    border: 2px solid #4d2f02;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #4d2f02;
+    color: #d5a6bd;
+}
+
+.hidden {
+    display: none;
+}
+
+.description {
+    background-color: #b4a7d6;
+    max-width: 50%;
+    margin: auto;
+    padding: 15px;
+    margin-bottom: 50px;
+    border: 5px solid #9fe7c6;
+    border-radius: 15px;
+}
+#result {
+  font-size: 20px;
+  background-color: #b4a7d6;
+  max-width: 50%;
+  margin: auto;
+  padding: 15px;
+  margin-bottom: 50px;
+  border: 5px solid #f3dfa8;
+  border-radius: 15px;
+}
